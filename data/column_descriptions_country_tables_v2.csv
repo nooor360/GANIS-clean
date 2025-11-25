@@ -1,0 +1,31 @@
+column_name,description
+file_name,Name of the parsed source file from which this text chunk was extracted.
+chunk_id,ID of the text chunk within the original file (used to reconstruct full pages).
+link_id,Internal numeric ID of the URL in the global link list.
+url,Full URL of the webpage.
+the_name,Standardized institution name matched to the Times Higher Education (THE) dataset.
+the_country,Harmonized country name of the institution.
+lang_detected,"Language code of the page text detected by LangDetect (e.g. 'en', 'es')."
+lang_score,Confidence score from LangDetect for the detected language (0–1).
+keyword_presence,Indicator whether any of the project’s AI-related keywords appear in the page content (yes/no).
+keywords_list,Semicolon-separated list of AI-related keywords found in the page content.
+top_unigrams,Most frequent individual words in the cleaned page text.
+top_bigrams,Most frequent two-word phrases in the cleaned page text.
+top_trigrams,Most frequent three-word phrases in the cleaned page text.
+raw_word_count,Total number of words in the cleaned page text.
+Title,"Page title, taken from the HTML <title> or a similar field."
+content_text,Main textual content of the webpage after boilerplate removal.
+the_rank,Institution rank from the THE ranking (for the relevant year).
+the_industry,THE 'Industry income' score for the institution.
+the_name_src,Original institution name as it appears in the THE source file.
+the_no_of_students,Number of students at the institution (from THE data).
+the_research,THE 'Research' score for the institution.
+the_no_of_fte,Number of full-time equivalent staff at the institution (from THE data).
+the_rank_dup,"Duplicate of 'the_rank', kept for technical checks and joins."
+the_domain,Main institutional internet domain from THE data (e.g. 'uni-xyz.de').
+the_teaching,THE 'Teaching' score for the institution.
+the_female_male,Female-to-male student ratio (from THE data).
+the_overall,Overall THE score for the institution.
+the_intl_outlook,THE 'International outlook' score for the institution.
+the_country_src,Country name exactly as given in the original THE source.
+Labels,"Final content label(s) assigned to the page by our classification scheme (e.g. research materials, university material, news, events, etc.)."

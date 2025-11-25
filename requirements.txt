@@ -1,0 +1,9 @@
+pandas==2.0.3
+numpy
+scikit-learn
+matplotlib
+seaborn
+sentence-transformers
+umap-learn
+hdbscan
+openpyxl
