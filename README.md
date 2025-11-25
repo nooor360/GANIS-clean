@@ -14,6 +14,8 @@ To prove that universities utilize a **"Dual-Narrative Strategy"** regarding Gen
 
 We introduce the **AI Optimism Index**, a novel metric to quantify this gap.
 
+See visuals/interactive_map_hype_top50.html for an interactive exploration of the semantic clusters.
+
 ## How to Reproduce (GANIS Track 5)
 
 ```bash

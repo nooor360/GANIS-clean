@@ -7,3 +7,4 @@ sentence-transformers
 umap-learn
 hdbscan
 openpyxl
+plotly==5.18.0
