@@ -1,8 +1,3 @@
-uwc.ac.za
-jhu.edu
-hku.hk
-iiit.ac.in
-iu.edu
-rug.nl
-uwe.ac.uk
-leeds.ac.uk
+# Domain blacklist for GANIS
+# Reserved for future iterations based on expanded manual validation.
+# No domains blacklisted in this version.
