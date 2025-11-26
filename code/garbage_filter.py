@@ -87,7 +87,7 @@ def main():
     print("-" * 40)
     print(f"Initial Dataset Size: {len(df)}")
     
-    # --- SENSITIVITY ANALYSIS (The "Pro" Move) ---
+    # --- SENSITIVITY ANALYSIS ---
     mean_ent = df["char_entropy"].mean()
     std_ent = df["char_entropy"].std()
     print(f"STATS: Mean Entropy: {mean_ent:.2f} +/- {std_ent:.2f}")
